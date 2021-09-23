@@ -1,0 +1,23 @@
+.d-flex {
+	display: flex;
+}
+
+.d-flex-jcsb {
+	justify-content: space-between;
+}
+
+.d-flex-jcc {
+	justify-content: center;
+}
+
+.d-flex-aic {
+	align-items: center;
+}
+
+.d-flex-dc {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}

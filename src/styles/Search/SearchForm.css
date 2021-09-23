@@ -1,0 +1,20 @@
+form {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+form input[type="text"] {
+    padding: 12px 80px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    text-decoration: none;
+    padding: 12px 50px;
+    border: none;
+    background-color: #000;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+}

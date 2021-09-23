@@ -1,0 +1,18 @@
+.text-temp {
+	flex-basis: 50%;
+}
+
+.text-temp h2 {
+	text-transform: capitalize;
+	font-size: 35px;
+}
+
+.text-temp p {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.text-temp span {
+	font-weight: 400;
+}

@@ -1,0 +1,8 @@
+.SearchFormError {
+	text-align: center;
+}
+
+.SearchFormError h2 {
+	font-size: 35px;
+	text-transform: capitalize;
+}
