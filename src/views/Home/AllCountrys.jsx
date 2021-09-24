@@ -8,7 +8,6 @@ import useFetchData from "../../hooks/useFetchData";
 //Components
 import Country from "../../components/Country";
 import Nav from "../../components/Nav";
-// const Country = lazy(() => import("../../components/Country"));
 
 const AllCountrys = () => {
 	//Estado del componente
@@ -17,7 +16,6 @@ const AllCountrys = () => {
 	const value = useRef();
 
 	const data = useFetchData("https://restcountries.com/v3/all");
-	// console.log(data);
 	const pageCountry = data.slice(0, 12 + nextCountry);
 
 	useEffect(() => {
@@ -31,7 +29,6 @@ const AllCountrys = () => {
 		});
 	}, [pageCountry, nextCountry]);
 
-	// console.log(Math.random().toString(36).substr(2, 9));
 	return (
 		<>
 			<Nav />

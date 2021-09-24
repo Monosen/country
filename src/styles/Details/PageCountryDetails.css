@@ -3,5 +3,12 @@
 }
 
 .f-b-5 {
-	flex-basis: 50%;
+	flex-basis: 100%;
+	margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+	.f-b-5 {
+		flex-basis: 30%;
+	}
 }

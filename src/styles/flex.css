@@ -10,6 +10,12 @@
 	justify-content: center;
 }
 
+@media (min-width: 992px) {
+	.d-flex-jcsb-2 {
+		justify-content: space-between;
+	}
+}
+
 .d-flex-aic {
 	align-items: center;
 }

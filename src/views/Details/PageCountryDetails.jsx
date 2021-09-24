@@ -27,9 +27,6 @@ const PageCountryDetails = (props) => {
 	const dataCountryClimate = useFetchData(
 		`https://api.openweathermap.org/data/2.5/weather?q=${code}&appid=${key}`
 	);
-	// console.log(dataCountryClimate);
-
-	// console.log(dataCountry);
 
 	return (
 		<div className="container">
@@ -47,9 +44,8 @@ const PageCountryDetails = (props) => {
 					subregion={dataCountry[0].subregion}
 					languages={dataCountry[0].languages}
 				/>
-				// console.log("prueba")
 			)}
-			<div className="d-flex mt flex-wrap">
+			<div className="d-flex mt flex-wrap text-c d-flex-jcc d-flex-jcsb-2">
 				<div className="f-b-5">
 					{dataCountry.message ? (
 						console.log("no informacion")

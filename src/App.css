@@ -1,59 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-*, html {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*,
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      width: 90%;
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    .container {
-      width: 80%;
-    }
-  }
-  
-  .grid-country {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .mtb {
-    margin-top: 25px;
-  }
+	width: 90%;
+	margin: 0 auto;
+}
 
-  .mtt {
-    margin-top: 100px;
-  }
-  
-  .box-button {
-    text-align: center;
-    margin: 25px auto;
-  }
-  
-  .box-button button:last-child {
-    margin-left: 20px;
-  }
+@media (min-width: 768px) {
+	.container {
+		width: 90%;
+	}
+}
 
-  .m-a {
-    margin: 0 auto;
-  }
+@media (min-width: 1400px) {
+	.container {
+		width: 80%;
+	}
+}
 
-  .text-c {
-    text-align: center;
-  }
+.grid-country {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 576px) {
+	.grid-country {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 768px) {
+	.grid-country {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.mtb {
+	margin-top: 25px;
+}
+
+.mtt {
+	margin-top: 100px;
+}
+
+.box-button {
+	text-align: center;
+	margin: 25px auto;
+}
+
+.box-button button:last-child {
+	margin-left: 20px;
+}
+
+.m-a {
+	margin: 0 auto;
+}
+
+.text-c {
+	text-align: center;
+}
+
+.m-b {
+	margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+	.m-b {
+		margin-bottom: 0;
+	}
+}

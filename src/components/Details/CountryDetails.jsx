@@ -8,9 +8,9 @@ import "../../styles/flex.css";
 const CountryDetails = (props) => {
 	const { img, name, capital, region, subregion } = props;
 	return (
-		<div className="container mtt d-flex">
+		<div className="mtt d-flex d-flex-jcc flex-wrap">
 			<div className="box-img">
-				<img src={img} alt="" />
+				<img className="m-b" src={img} alt="" />
 			</div>
 			<div className="box-text">
 				<h1>{name}</h1>

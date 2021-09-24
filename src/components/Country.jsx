@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-//Estilos
+//Styles
 import "../styles/Country.css";
 
 const Country = ({ name, img, code }) => {

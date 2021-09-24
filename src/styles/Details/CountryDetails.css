@@ -3,7 +3,7 @@
 	flex-basis: 50%;
 }
 
-.box-img img {
+.box-img > img {
 	width: 100%;
 	border-radius: 10px;
 }

@@ -23,7 +23,6 @@ const Search = (props) => {
 				`https://restcountries.com/v3/name/${countryName}?fullText=true`
 			);
 			const result = await response.json();
-			// console.log(result);
 
 			if (result.status) {
 				setError(result.message);

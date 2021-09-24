@@ -9,7 +9,14 @@ div.polaroid {
 
 div.polaroid img {
 	width: 100%;
-	height: 250px;
+	height: 170px;
+}
+
+@media (min-width: 768px) {
+	div.polaroid img {
+		width: 100%;
+		min-height: 230px;
+	}
 }
 
 div.container-text {
