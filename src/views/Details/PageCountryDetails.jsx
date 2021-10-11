@@ -33,7 +33,7 @@ const PageCountryDetails = (props) => {
 			{dataCountry.message ? (
 				<SearchFormError message={dataCountry.message} />
 			) : dataCountry.length === 0 ? (
-				console.log("es una arreglo")
+				console.log()
 			) : (
 				<CountryDetails
 					key={dataCountry[0].cca3}
@@ -48,9 +48,9 @@ const PageCountryDetails = (props) => {
 			<div className="d-flex mt flex-wrap text-c d-flex-jcc d-flex-jcsb-2">
 				<div className="f-b-5">
 					{dataCountry.message ? (
-						console.log("no informacion")
+						console.log()
 					) : dataCountryClimate.length === 0 ? (
-						console.log("hola")
+						console.log()
 					) : dataCountryClimate.message ? (
 						<SearchFormError message={dataCountryClimate.message} />
 					) : (
@@ -65,9 +65,9 @@ const PageCountryDetails = (props) => {
 				</div>
 				<div className="f-b-5">
 					{dataCountry.message ? (
-						console.log("no informacion")
+						console.log()
 					) : dataCountryClimate.length === 0 ? (
-						console.log("hola")
+						console.log()
 					) : dataCountryClimate.message ? (
 						<SearchFormError message={dataCountryClimate.message} />
 					) : (
@@ -80,9 +80,9 @@ const PageCountryDetails = (props) => {
 				</div>
 				<div className="f-b-5">
 					{dataCountry.message ? (
-						console.log("no informacion")
+						console.log()
 					) : dataCountryClimate.length === 0 ? (
-						console.log("hola")
+						console.log()
 					) : dataCountryClimate.message ? (
 						<SearchFormError message={dataCountryClimate.message} />
 					) : (

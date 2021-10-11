@@ -3,7 +3,6 @@ import React from "react";
 import "./../styles/Search/SearchFormError.css";
 
 const SearchFormError = ({ message }) => {
-	console.log("error");
 	return (
 		<div className="SearchFormError">
 			<h2>Error</h2>
